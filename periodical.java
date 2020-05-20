@@ -12,7 +12,7 @@ public class periodical extends libraryItem {
     }
 
     public boolean setMonthly(boolean monthly) {
-        this.monthly = monthly;
+        return this.monthly = false;
     }
 
     

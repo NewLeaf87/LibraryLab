@@ -17,7 +17,6 @@ public class comic extends periodical {
 
     @Override
     public boolean setMonthly(boolean monthly) {
-        // TODO Auto-generated method stub
         return monthly = true;
     }
 
