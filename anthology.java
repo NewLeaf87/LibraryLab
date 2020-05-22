@@ -1,4 +1,5 @@
-public class anthology extends book {
+
+public class anthology extends Book {
 
     private int numOfBooks;
 
@@ -13,6 +14,11 @@ public class anthology extends book {
 
     public void setNumOfBooks(int numOfBooks) {
         this.numOfBooks = numOfBooks;
+    }
+
+    @Override
+    public void display() {
+        System.out.println("Lets");
     }
 
     

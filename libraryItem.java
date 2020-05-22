@@ -1,3 +1,5 @@
+
+
 public class libraryItem {
 
     private String title;
@@ -34,6 +36,13 @@ public class libraryItem {
 
     public void setCoverArt(boolean coverArt) {
         this.coverArt = coverArt;
+
+        if(coverArt = true) {
+            System.out.println("This book has cover art");
+        } else {
+            System.out.println("This book does not have cover art");
+        }
+        
     }
 
     public String getAuthor() {

@@ -1,0 +1,6 @@
+interface BestSeller {
+
+    
+    void display();
+    
+}

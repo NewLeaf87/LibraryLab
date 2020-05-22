@@ -1,4 +1,5 @@
-public class comic extends periodical {
+
+public class comic extends periodical implements BestSeller {
 
     private int issues;
 
@@ -18,6 +19,11 @@ public class comic extends periodical {
     @Override
     public boolean setMonthly(boolean monthly) {
         return monthly = true;
+    }
+
+    @Override
+    public void display() {
+        System.out.println("Lets");
     }
 
     
